@@ -1,83 +1,146 @@
-VisionAssist – AI-Powered Object Detection for Low-Light Environments
+VisionAssist – AI-Powered Object Detection for Low-Light Environments  🚀
 
-Overview
+📌 Overview
 
 VisionAssist is an AI-based object detection system designed for low-light environments. It leverages YOLOv8 and YOLOv11 models, fine-tuned on the ExDark dataset, to accurately detect objects in challenging lighting conditions. The system integrates Raspberry Pi, ultrasonic sensors, and servo motors for real-time distance and direction estimation, enhancing accessibility and navigation assistance.
 
-Features
+🔥 Features
 
-Low-Light Object Detection – Uses YOLOv8 & YOLOv11 fine-tuned on ExDark dataset.
+✅ Low-Light Object Detection – Uses YOLOv8 & YOLOv11 fine-tuned on the ExDark dataset.✅ Real-Time Processing – Runs efficiently on Raspberry Pi with optimized deep-learning models.✅ Distance & Direction Estimation – Uses ultrasonic sensors & servo motors to provide object location feedback.✅ Hardware Integration – Seamless connection with sensors for a complete assistive solution.
 
-Real-Time Processing – Runs efficiently on Raspberry Pi with optimized deep-learning models.
+🛠 Hardware Components
 
-Distance & Direction Estimation – Uses ultrasonic sensors & servo motors to provide object location feedback.
+🔹 Raspberry Pi – Runs the object detection model.🔹 Ultrasonic Sensor – Measures object distance.🔹 Servo Motor – Adjusts the sensor’s direction to scan the surroundings.
 
-Hardware Integration – Seamless connection with sensors for a complete assistive solution.
+🖥 Software & Tools Used
 
-Hardware Components
+🐍 Python – Core programming language.
 
-Raspberry Pi – Runs the object detection model.
+🔍 YOLOv8 & YOLOv11 – Object detection models.
 
-Ultrasonic Sensor – Measures object distance.
+📸 OpenCV – Image processing and real-time video handling.
 
-Servo Motor – Adjusts the sensor’s direction to scan the surroundings.
+🧠 PyTorch/TensorFlow – Deep learning framework.
 
-Software & Tools Used
+🌍 GitHub – Version control and project collaboration.
 
-Python – Core programming language.
+⚙ Installation & Setup
 
-YOLOv8 & YOLOv11 – Object detection models.
-
-OpenCV – Image processing and real-time video handling.
-
-PyTorch/TensorFlow – Deep learning framework.
-
-GitHub – Version control and project collaboration.
-
-Installation & Setup
-
-1. Clone the Repository
+1️⃣ Clone the Repository
 
 git clone https://github.com/Eshaj20/VissionAssist.git
 cd VisionAssist
 
-2. Install Dependencies
+2️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
-3. Run the Object Detection Model
+3️⃣ Run the Object Detection Model
 
 python vision_assist.py
 
 (Modify the filename if needed based on your project structure.)
 
-Usage
+🎯 Usage
 
-Start the system – The camera captures real-time frames.
+🔹 Start the system – The camera captures real-time frames.🔹 Object Detection – The model detects objects and provides bounding boxes.🔹 Distance Estimation – The ultrasonic sensor measures object distance.🔹 Direction Assistance – Servo motors adjust angles for better coverage.
 
-Object Detection – The model detects objects and provides bounding boxes.
+📊 Results & Performance
 
-Distance Estimation – The ultrasonic sensor measures object distance.
+📌 Mean Average Precision (mAP): 38% (Add actual performance metrics)📌 Precision: 0.81📌 Recall: 0.74
 
-Direction Assistance – Servo motors adjust angles for better coverage.
+📌 Distance Measurement Accuracy:
 
-Results & Performance
+Distance (m)
 
-Mean Average Precision (mAP): 38% (Add actual performance metrics)
-precision : 0.81
-Recall : 0.74
-![image](https://github.com/user-attachments/assets/f5126c69-ef87-4cc2-8d8d-58b7f3ae2599)
+1
 
-Distance Measurement Accuracy :
-The system's distance estimation was evaluated, and the results are summarized below:
-![Screenshot 2025-02-21 184316](https://github.com/user-attachments/assets/47e90436-17f4-4d76-a0d3-00c3c6eba2de)
+1.5
 
-Accuracy in Low-Light: 81.4% (Performance comparison before & after fine-tuning)
+2
 
-Future Improvements
+3
 
-Edge AI Optimization – Improve real-time processing on Raspberry Pi.
+4
 
-Face Recognition Integration – (Previously attempted but faced hardware limitations).
+1
 
-Voice Assistance – Convert detections into audio feedback for visually impaired users.
+0.95
+
+1.43
+
+2.00
+
+2.86
+
+4.00
+
+2
+
+1.06
+
+1.43
+
+1.82
+
+2.86
+
+4.00
+
+3
+
+0.95
+
+1.54
+
+1.82
+
+3.07
+
+4.44
+
+4
+
+1.06
+
+1.43
+
+2.00
+
+3.07
+
+3.64
+
+5
+
+0.91
+
+1.54
+
+2.00
+
+2.86
+
+4.00
+
+🔹 Average Error (m): 0.062, 0.058, 0.072, 0.11, 0.16🔹 Standard Deviation: 0.07, 0.06, 0.10, 0.12, 0.28
+
+📌 Accuracy in Low-Light: 81.4% (Performance comparison before & after fine-tuning)
+
+🚀 Future Improvements
+
+🔹 Edge AI Optimization – Improve real-time processing on Raspberry Pi.🔹 Face Recognition Integration – (Previously attempted but faced hardware limitations.)🔹 Voice Assistance – Convert detections into audio feedback for visually impaired users.
+
+👥 Contributors
+
+[Your Name] – Developer, Model Training & Hardware Integration.
+
+[Team Member] – Data Processing & Optimization.(Add GitHub profiles or LinkedIn links if desired.)
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and improve it!
+
+🙌 Acknowledgments
+
+Special thanks to the creators of YOLOv8, YOLOv11, and ExDark dataset for making this project possible.
