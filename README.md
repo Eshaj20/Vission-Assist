@@ -66,5 +66,5 @@ VisionAssist is an AI-based object detection system designed for low-light envir
 
 🔹 Edge AI Optimization – Improve real-time processing on Raspberry Pi.
 🔹 Face Recognition Integration – (Previously attempted but faced hardware limitations.
-)🔹 Voice Assistance – Convert detections into audio feedback for visually impaired users.
+🔹 Voice Assistance – Convert detections into audio feedback for visually impaired users.
 
