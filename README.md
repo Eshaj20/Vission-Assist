@@ -6,7 +6,10 @@ VisionAssist is an AI-based object detection system designed for low-light envir
 
 🔥 Features
 
-✅ Low-Light Object Detection – Uses YOLOv8 & YOLOv11 fine-tuned on the ExDark dataset.✅ Real-Time Processing – Runs efficiently on Raspberry Pi with optimized deep-learning models.✅ Distance & Direction Estimation – Uses ultrasonic sensors & servo motors to provide object location feedback.✅ Hardware Integration – Seamless connection with sensors for a complete assistive solution.
+✅ Low-Light Object Detection – Uses YOLOv8 & YOLOv11 fine-tuned on the ExDark dataset.
+✅ Real-Time Processing – Runs efficiently on Raspberry Pi with optimized deep-learning models.
+✅ Distance & Direction Estimation – Uses ultrasonic sensors & servo motors to provide object location feedback.
+✅ Hardware Integration – Seamless connection with sensors for a complete assistive solution.
 
    🛠 Hardware Components
 
@@ -43,14 +46,16 @@ VisionAssist is an AI-based object detection system designed for low-light envir
              python vision_assist.py
 
 
-
    🎯 Usage
 
-🔹 Start the system – The camera captures real-time frames.🔹 Object Detection – The model detects objects and provides bounding boxes.🔹 Distance Estimation – The ultrasonic sensor measures object distance.🔹 Direction Assistance – Servo motors adjust angles for better coverage.
+🔹 Start the system – The camera captures real-time frames.
+🔹 Object Detection – The model detects objects and provides bounding boxes.
+🔹 Distance Estimation – The ultrasonic sensor measures object distance.
+🔹 Direction Assistance – Servo motors adjust angles for better coverage.
 
    📊 Results & Performance
 
-![image](https://github.com/user-attachments/assets/44521981-4f45-40c9-8040-0e5420aca444)
+  ![image](https://github.com/user-attachments/assets/44521981-4f45-40c9-8040-0e5420aca444)
 📌 Mean Average Precision (mAP): 38% (Add actual performance metrics)📌 Precision: 0.81📌 Recall: 0.74
 
 📌 Distance Measurement Accuracy:
