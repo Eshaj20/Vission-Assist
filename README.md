@@ -6,7 +6,7 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv)](https://opencv.org/)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=VisionAssist+Demo" alt="demo">
+  <img src="https://github.com/Eshaj20/Vission-Assist/blob/master/video.mp4" alt="demo">
 </div>
 
 ## 📌 Overview
