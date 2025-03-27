@@ -80,12 +80,30 @@ git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
              Average Inference Time: 450ms ± 23ms
               Power Consumption: 3.2W @ 5V
 
-## 🛠 Hardware Setup
---------------------------------------------------------------------------------------
-```mermaid
-graph LR
-  A[RPi Camera] --> B[Raspberry Pi 4B]
-  B --> C[HC-SR04 Sensor]
-  B --> D[SG90 Servo]
-  B --> E[Power Bank]
+## 🔄 System Workflow
 
+```mermaid
+flowchart TD
+    A[COCO Dataset] --> B[Object Detection Training]
+    C[ExDark Dataset] --> B
+    D[Face Dataset] --> E[Face Recognition Training]
+    
+    B --> F[ML Model]
+    E --> F
+    
+    F --> G[Raspberry Pi 3B]
+    H[Camera Module] --> G
+    I[Ultrasonic Sensor] --> G
+    J[Servo Motor] --> G
+    
+    G --> K[Object Detection]
+    G --> L[Face Recognition]
+    G --> M[Distance Calculation]
+    G --> N[Direction Calculation]
+    
+    K --> O[Audio Output]
+    L --> O
+    M --> O
+    N --> O
+    
+    O --> P["Output: Object Name, Face ID, Distance, Direction"]
