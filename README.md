@@ -6,7 +6,7 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv)](https://opencv.org/)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400?text=VisionAssist+Demo" alt=""C:\Users\eshaa\Downloads\video.mp4"">
+  <img src="https://via.placeholder.com/800x400?text=VisionAssist+Demo" alt="demo">
 </div>
 
 ## 📌 Overview
@@ -36,7 +36,7 @@ Vision
 Hardware
 <img src="https://img.shields.io/badge/RPi.GPIO-A22846" height="20"> <img src="https://img.shields.io/badge/Picamera2-003366" height="20">
 
-##⚙️ Installation
+⚙️ Installation
 ---------------------------------------------------------------------------------------------------------------------------------------
 # Clone with submodules
 git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
@@ -50,7 +50,7 @@ git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
 # Install dependencies
               pip install -r requirements.txt
 
-##🚀 Usage
+🚀 Usage
 -----------------------------------------------------------------------------------------------------
 
 # Run with default settings
