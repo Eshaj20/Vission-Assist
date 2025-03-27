@@ -39,11 +39,11 @@ Hardware
 ⚙️ Installation
 ---------------------------------------------------------------------------------------------------------------------------------------
 # Clone with submodules
-git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
+                git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
 
 # Setup environment
                  cd VisionAssist
-                python -m venv venv
+                 python -m venv venv
                source venv/bin/activate  # Linux/Mac
               # venv\Scripts\activate  # Windows
 
