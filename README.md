@@ -73,14 +73,14 @@ git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
 | **Recall**   | 0.74   | 0.78    | ↑ 5.4%      |
 
 
-##Hardware Benchmarks
+Hardware Benchmarks
 --------------------------------------------------------------------------
 
              # Raspberry Pi 4B (4GB)
              Average Inference Time: 450ms ± 23ms
               Power Consumption: 3.2W @ 5V
 
-## 🔄 System Workflow
+ 🔄 System Workflow
 
 ```mermaid
 flowchart TD
