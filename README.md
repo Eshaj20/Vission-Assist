@@ -88,7 +88,7 @@ flowchart TD
     C[ExDark Dataset] --> B
     D[Face Dataset] --> E[Face Recognition Training]
     
-    B --> F[ML Model]
+    B --> F[Using YOLOv8 and YOLOv11]
     E --> F
     
     F --> G[Raspberry Pi 3B]
