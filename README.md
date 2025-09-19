@@ -5,9 +5,7 @@
 [![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?logo=raspberrypi)](https://www.raspberrypi.com/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv)](https://opencv.org/)
 
-<div align="center">
-  <img src="https://github.com/Eshaj20/Vission-Assist/blob/master/video.mp4" alt="DemoVideo">
-</div>
+**Demo Video** : https://drive.google.com/file/d/1ceJz16QFQT3Lqp7DnTHLPtd7XAZW25c_/view?usp=drivesdk
 
 ## 📌 Overview
 -----------------------------------------------------------------------------------------------------------------------------------
