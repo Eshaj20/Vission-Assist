@@ -7,14 +7,14 @@
 
 **Demo Video** : https://drive.google.com/file/d/1ceJz16QFQT3Lqp7DnTHLPtd7XAZW25c_/view?usp=drivesdk
 
-## 📌 Overview
+## Overview
 -----------------------------------------------------------------------------------------------------------------------------------
 VisionAssist is an intelligent navigation aid that detects objects in real-time under low-light conditions. Combining optimized YOLO models with affordable hardware, it provides:
 - Real-time object detection (2-4 FPS on RPi 4)
 - Distance and direction estimation
 - Accessibility-focused feedback
 
-## ✨ Key Features
+## Key Features
 --------------------------------------------------------------------------------------------------------------------------
 | Feature | Description |
 |---------|-------------|
@@ -23,7 +23,7 @@ VisionAssist is an intelligent navigation aid that detects objects in real-time 
 | **Compact Design** | Raspberry Pi 4B with Pi Camera V2 |
 | **Open-Source** | Fully customizable Python implementation |
 
-🧰 Tech Stack
+## Tech Stack
 ----------------------------------------------------------------------------------------------------------------------------------
 AI Core
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch" height="20"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow" height="20">
@@ -34,7 +34,7 @@ Vision
 Hardware
 <img src="https://img.shields.io/badge/RPi.GPIO-A22846" height="20"> <img src="https://img.shields.io/badge/Picamera2-003366" height="20">
 
-⚙️ Installation
+## Installation
 ---------------------------------------------------------------------------------------------------------------------------------------
 # Clone with submodules
                 git clone --recurse-submodules https://github.com/Eshaj20/VisionAssist.git
@@ -60,7 +60,7 @@ Hardware
               --confidence 0.7 \
               --scan_angle 90
 
-## 📊 Performance Benchmarks
+## Performance Benchmarks
 -----------------------------------------------------------------------------------------------------------
 
 ### Model Comparison (ExDark Dataset)
@@ -78,7 +78,7 @@ Hardware Benchmarks
              Average Inference Time: 450ms ± 23ms
               Power Consumption: 3.2W @ 5V
 
- 🔄 System Workflow
+## System Workflow
 
 ```mermaid
 flowchart TD
